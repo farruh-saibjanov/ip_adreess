@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IP Address Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>IP Address Tracker</h1>
+    <div class="search-bar">
+      <input type="text" id="ipInput" placeholder="Enter IP address" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="info">
+      <p><strong>IP Address:</strong> <span id="ip"></span></p>
+      <p><strong>Location:</strong> <span id="location"></span></p>
+      <p><strong>Timezone:</strong> <span id="timezone"></span></p>
+      <p><strong>ISP:</strong> <span id="isp"></span></p>
+    </div>
+    <div id="map"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
